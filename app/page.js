@@ -19,7 +19,7 @@ export default function Home() {
       <img
         src="/dora-image-sample.png" 
         alt="Dora image"
-        style={{ width: '400px', height: '200px', margin: '40px 0' }}
+        style={{ width: '400px', height: '200px', margin: '40px 0', objectFit: 'contain' }}
       />
       <div
 	style={{
@@ -45,8 +45,8 @@ export default function Home() {
       </div>
 	  	<div style={{ margin: '20px 10px', }}>
 	  <h3 style={{ textDecoration: 'underline' }}>
-  <Link href="/dora-app">
-    その他の携帯をお使いの方→
+  <Link href="/player">
+    その他の携帯/ウェブ→
   </Link>
 </h3>
 	</div>
