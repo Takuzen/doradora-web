@@ -29,7 +29,7 @@ export default function Home() {
       }}
     >
       <img
-	className="responsive-image"
+	src="/doradora-chinese-character.png"
 	alt="Doradora Chinese Character"
 	style={{ width: '300px', height: '150px', margin: '40px 0', objectFit: 'contain' }}
       />
