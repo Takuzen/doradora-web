@@ -2,7 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Custom Variables for Light and Dark Modes */
+/* Force light mode */
+:root {
+  color-scheme: light; /* Ensures scrollbars, input elements, etc., use light mode */
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    filter: invert(0) !important; /* Neutralize any dark mode inversion */
+    background-color: white !important; /* Force a white background */
+    color: black !important; /* Force text to be black */
+  }
+}
+
+/*
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -14,6 +27,7 @@
     --foreground: #ededed;
   }
 }
+*/
 
 /* Base Body Styles */
 body {
