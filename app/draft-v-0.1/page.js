@@ -73,17 +73,6 @@ export default function Home() {
 
 	</div>
 
-	<div style={{ display: 'flex', flexDirection: 'column', gap: '10px', margin: '100px 0 20px 0' }}>
-	  <img
-	    src="/doradora-basic.png"
-	    alt="Basic"
-	    width="400"
-	    height="200"
-	  />
-	  <h3>＋ タイマー機能</h3>
-	  <h3>＋ アラーム機能</h3>
-	</div>
-	
 	<div style={{ display: 'flex', flexDirection: 'column', gap: '10px', margin: '20px 0 20px 0', textAlign: 'center' }}>
   <img
     src="/doradora-pro.png"

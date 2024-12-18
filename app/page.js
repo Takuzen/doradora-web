@@ -14,9 +14,9 @@ export default function Home() {
       }}
     >
       <img
-	src="doradora-chinese-character.png"
+	src="doradora-chinese-character-3x.png"
 	alt="Doradora Chinese Character"
-	style={{ width: '300px', height: '150px', margin: '40px 0', objectFit: 'contain' }}
+	style={{ width: '300px', height: '150px', margin: '40px 0', objectFit: 'cover' }}
       />
       {/* Image of Dora */}
       <img
@@ -46,7 +46,7 @@ export default function Home() {
       </a>
       <p>iPhoneの方</p>
       </div>
-	  	<div style={{ margin: '10px 10px', }}>
+	  	<div style={{ margin: '20px 10px', }}>
 	  <h3 style={{ textDecoration: 'underline' }}>
   <Link href="/player">
     その他の携帯/ウェブ→
